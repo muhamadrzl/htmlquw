@@ -1,0 +1,99 @@
+body {
+    font-family:  Arial, sans-serif;
+    /* height: 100% */
+  }
+  
+  header {
+    /* background-color: #54c4c1; */
+    /* padding: 1em; */
+    /* height:100%; */
+    background-image: url('slg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 50vh;
+    /* overflow: hidden; */
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #fefbfc;
+    padding: 100px 0;
+    text-align:center;
+    font-family: 'Courier New';
+  }
+  
+  /* nav {
+    background-color: #cccccc;
+    padding: 0.5em;
+    float: right;
+  } */
+  nav{
+    background-color: #cccccc; 
+    list-style-type: none;
+    text-align: left;
+    /* margin: 0; */
+    padding: 0;
+    width: 100%;
+    bottom: 325px;
+    position: absolute;
+  }
+
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000;
+    /* padding: 0.5em; */
+  }
+  
+  main {
+    padding: 5em;
+  }
+  
+  /* #articles {
+    float:left;
+    width: 30%;
+  }
+
+  #main{
+    float:left;
+    width: 70%;
+  } */
+  
+  footer {
+    background-color: #cccccc;
+    padding: 10px;
+    text-align: center;
+    margin-top:7px
+  }
+  
+@media screen and (max-width: 700px) {
+    header h1 {
+      font-size: 1.5em;
+      color : #54c4c1; 
+    }
+
+    #articles,#main{
+      width: 100%;
+    }
+  
+    nav li {
+      display: block;
+      margin-bottom: 0.5em;
+      
+    }
+  
+    nav a {
+      padding: 1em;
+    }
+  }
+  /* The above example uses a media query to change the font size of the header, change the display of the navigation links to block, and increase the padding of the navigation links when the screen width is less than 768px. This is just an example of what you can do with media queries, you can do a lot more to change the layout, font size, images size and other element of your website based on the screen size. Also it is good practice to test it on different devices and browsers. */
+  
+  
+  
+  
+  
