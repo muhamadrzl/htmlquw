@@ -14,8 +14,13 @@ img {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    height: 45vh;
+    /* height: vh; */
     /* overflow: hidden; */
+  }
+
+  nav{ 
+     position: relative; 
+     /* top:200px;  */
   }
   
   header h1 {
@@ -25,12 +30,14 @@ img {
     text-align:center;
     font-family: 'Courier New';
   }
+  
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
+
   figcaption {
     
     color: black;
@@ -58,7 +65,7 @@ img {
     margin-top:7px
   }
   
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     header h1 {
       font-size: 1.5em;
       color : #54c4c1; 
@@ -71,9 +78,9 @@ img {
     .center{
       max-width:100%;
     }
-    nav a {
+    /* nav a {
       padding: 1em;
-    }
+    } */
   }
   /* The above example uses a media query to change the font size of the header, change the display of the navigation links to block, and increase the padding of the navigation links when the screen width is less than 768px. This is just an example of what you can do with media queries, you can do a lot more to change the layout, font size, images size and other element of your website based on the screen size. Also it is good practice to test it on different devices and browsers. */
   
